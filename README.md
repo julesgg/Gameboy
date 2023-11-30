@@ -1,6 +1,6 @@
 # Gameboy Project
 
-Fabrication of a gameboy, a hunting game and a mold modelisation
+Fabrication d'une gameboy, codage d'un jeu de chasse et modélisation d'un moule pour le boitier
 
 ***Matthieu Mombert, Jules Gueguen***
 
@@ -41,6 +41,7 @@ Le jeu a été implémenté sur deux gameboy créées à partir d'une ESP32 reli
 
 -Allumer les deux gameboy et les connecter en wifi
 -Attendre quelques secondes qu'un message affiche que la connection a été effectuée
+-Un menu s'affiche pour le choix des joueurs "joueur 1" ou "joueur 2"
 -Commencer la partie en pressant le bouton "Start" en bas à droite
 -Le joueur 1 est positionné en bas à gauche de l'écran et le joueur 2 est positionné en bas à droite
 -Les joueurs tirent avec le bouton A situé le plus à droite de la gameboy
@@ -50,5 +51,5 @@ Le jeu a été implémenté sur deux gameboy créées à partir d'une ESP32 reli
 
 ## Comment le jeu a été créé
 
-Le code est composé d'un seul fichier client et un fichier serveur
-Les 2 fichiers contiennent les différentes classes et éléments permettant au jeu de fonctionner. Ils permettent de créer une connection wifi et procèdent aux échanges de données entre les gameboy
+Le code est composé d'un seul fichier réunissant le rôle de client et de serveur
+Le fichier contient les différentes classes et éléments permettant au jeu de fonctionner. Il permet de créer une connection wifi et procède aux échanges de données entre les gameboy. Nous avons effectué quelques modifications sur le code après avoir tourné la vidéo, le code final affiche une interface qui demande aux joueurs de choisir entre "joueur 1" et "joueur 2", lorsque les joueurs ont fait un choix le jeu commence et fonctionne en réseau.
