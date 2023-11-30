@@ -33,18 +33,20 @@ WiFi.h, WiFiUdp.h
 
 ## Description du système
 
-Ce jeu a été codé sur Visual Studio Code, la première étape a été de coder un jeu fonctionnel sur une seule gameboy. Nous avons codé pas à pas en rajoutant les fonctionnalités une à une. Lorsque le jeu fonctionnait sur une gameboy, nous nous sommes occupés de connecter le jeu en réseau afin de pouvoir jouer sur deux gameboy en simultané.
+Ce jeu a été codé sur Arduino IDE, la première étape a été de coder un jeu fonctionnel sur une seule gameboy. Nous avons codé pas à pas en rajoutant les fonctionnalités une à une. Lorsque le jeu fonctionnait sur une gameboy, nous nous sommes occupés de connecter le jeu en réseau afin de pouvoir jouer sur deux gameboy en simultané.
 
 Le jeu a été implémenté sur deux gameboy créées à partir d'une ESP32 reliée à une autre PCB composée d'un écran OLED 128x64 pixels et des boutons de la gameboy.
 
 ## Comment jouer 
 
 -Allumer les deux gameboy et les connecter en wifi
--Attendre quelques secondes qu'un message affiche que la connection a été effectuée
--Un menu s'affiche pour le choix des joueurs "joueur 1" ou "joueur 2"
--Commencer la partie en pressant le bouton "Start" en bas à droite
+-Appuyer sur le bouton "Start"
+-Un menu s'affiche pour le choix des joueurs "serveur" ou "client"
+-L'une des gameboy choisi "serveur" et l'autre "client"
+-Elles se connectent entre elles et affichent chacune l'adresse IP
+-La partie se lance
 -Le joueur 1 est positionné en bas à gauche de l'écran et le joueur 2 est positionné en bas à droite
--Les joueurs tirent avec le bouton A situé le plus à droite de la gameboy
+-Les joueurs tirent avec le bouton "A" situé le plus à droite de la gameboy
 -Lorsqu'un joueur touche une cible, son score augmente ou diminue selon la cible atteinte au niveau du compteur situé dans le coin au dessus du joueur
 -Lorsqu'un joueur atteint le socre de 10 points, il gagne et la partie s'arrête
 -Ils peuvent relancer une partie en pressant "Start" à nouveau
