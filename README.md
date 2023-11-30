@@ -33,7 +33,7 @@ WiFi.h, WiFiUdp.h
 
 ## Description du système
 
-Ce jeu a été codé sur Visual Studio Code, la première étape a été de coder un jeu fonctionnel sur une seule gameboy. Nous avons codé pas à pas en rajoutant les fonctionnalités une à une. Lorsque le jeu fonctionnait sur une gameboy, nous nous occupé de connecter le jeu en réseau afin de pouvoir jouer sur deux gameboy en simultané.
+Ce jeu a été codé sur Visual Studio Code, la première étape a été de coder un jeu fonctionnel sur une seule gameboy. Nous avons codé pas à pas en rajoutant les fonctionnalités une à une. Lorsque le jeu fonctionnait sur une gameboy, nous nous sommes occupés de connecter le jeu en réseau afin de pouvoir jouer sur deux gameboy en simultané.
 
 Le jeu a été implémenté sur deux gameboy créées à partir d'une ESP32 reliée à une autre PCB composée d'un écran OLED 128x64 pixels et des boutons de la gameboy.
 
@@ -50,5 +50,5 @@ Le jeu a été implémenté sur deux gameboy créées à partir d'une ESP32 reli
 
 ## Comment le jeu a été créé
 
-Le code est composé de 2 fichiers : un fichier client et un fichier serveur
+Le code est composé d'un seul fichier client et un fichier serveur
 Les 2 fichiers contiennent les différentes classes et éléments permettant au jeu de fonctionner. Ils permettent de créer une connection wifi et procèdent aux échanges de données entre les gameboy
