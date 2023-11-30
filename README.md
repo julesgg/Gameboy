@@ -1,7 +1,23 @@
-# Gameboy
+# Gameboy Project
+
 Fabrication of a gameboy, a hunting game and a mold modelisation
 
 ***Matthieu Mombert, Jules Gueguen***
+
+## Matériel requis
+
+2 x ESP32
+2 x Écrans OLED
+Claviers matriciels
+Câbles et connexions
+
+## Bibliothèques Requises
+
+Wire.h
+Adafruit_GFX.h, Adafruit_SSD1306.h
+Keypad.h
+WiFi.h, WiFiUdp.h
+
 
 ## But du jeu
 
