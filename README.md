@@ -40,11 +40,11 @@ Le jeu a été implémenté sur deux gameboy créées à partir d'une ESP32 reli
 ## Comment jouer 
 
 -Allumer les deux gameboy et les connecter en wifi
--Attendre quelques seconde qu'un message affiche que la connection a été effectuée
+-Attendre quelques secondes qu'un message affiche que la connection a été effectuée
 -Commencer la partie en pressant le bouton "Start" en bas à droite
 -Le joueur 1 est positionné en bas à gauche de l'écran et le joueur 2 est positionné en bas à droite
 -Les joueurs tirent avec le bouton A situé le plus à droite de la gameboy
--Lorsqu'un joueur touche une cible, son score augmente ou diminue au niveau du compteur situé dans le coin au dessus du joueur
+-Lorsqu'un joueur touche une cible, son score augmente ou diminue selon la cible atteinte au niveau du compteur situé dans le coin au dessus du joueur
 -Lorsqu'un joueur atteint le socre de 10 points, il gagne et la partie s'arrête
 -Ils peuvent relancer une partie en pressant "Start" à nouveau
 
